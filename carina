@@ -1,0 +1,12 @@
+
+
+import random
+
+while True:
+  possible_actions = ["goat", "goat", "car"]  
+  computer_action_for_door1 = random.choice(possible_actions)
+  possible_actions2 = ["goat", "goat", "car"]
+  computer_action_for_door2 = random.choice(possible_actions)
+  print(f"{computer_action_for_door1}")
+  print(f"{computer_action_for_door2}")
+  
